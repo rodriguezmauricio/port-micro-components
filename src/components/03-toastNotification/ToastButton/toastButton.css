@@ -1,0 +1,9 @@
+.toast-notif-button {
+	border: none;
+	padding: 20rem 50rem;
+	font-size: 20rem;
+	border-radius: 5rem;
+	background-color: transparent;
+	color: #fff;
+	cursor: pointer;
+}

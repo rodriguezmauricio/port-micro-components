@@ -1,0 +1,11 @@
+.toast-message-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	padding: 10rem;
+	width: 300px;
+	border-radius: 5rem;
+	font-size: 18rem;
+	font-weight: bold;
+}

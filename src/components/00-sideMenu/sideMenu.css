@@ -1,0 +1,19 @@
+.side-menu-container {
+	background-color: rgb(24, 3, 49);
+	width: 300px;
+	height: 100vh;
+	padding: 30rem;
+	color: #ffffff;
+	border-right: 5px solid rgb(190, 233, 0);
+}
+
+.side-menu-container ul li {
+	list-style: none;
+	padding: 5rem 0 5rem 15rem;
+}
+
+.side-menu-container ul li a {
+	text-decoration: none;
+	/* color: #ffffff; */
+	font-size: 20rem;
+}

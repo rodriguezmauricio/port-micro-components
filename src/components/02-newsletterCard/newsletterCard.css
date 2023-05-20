@@ -1,0 +1,71 @@
+.newsletter-card-main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.newsletter-card-container {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 60rem;
+	border-radius: 80rem 5rem;
+	max-width: 800px;
+	gap: 15rem;
+	border: 5px solid rgb(190, 233, 0);
+	box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.newsletter-card-container h2 {
+	text-align: center;
+	font-size: 36rem;
+}
+
+.newsletter-card-container h3 {
+	text-align: center;
+	font-size: 20rem;
+	font-weight: 400;
+}
+
+.newsletter-card-container p {
+	font-size: 14rem;
+	font-weight: 400;
+}
+
+.newsletter-card-input-container {
+	display: flex;
+	gap: 15rem;
+	font-size: 18rem;
+}
+
+.newsletter-card-input {
+	flex: 1;
+	padding: 15rem;
+	border-radius: 5rem;
+	border: 1px solid #bbb;
+}
+
+.newsletter-card-button {
+	padding: 15rem;
+	border: none;
+	font-size: 16rem;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #222;
+	border-radius: 5rem;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.newsletter-card-button:hover {
+	background-color: rgb(190, 233, 0);
+	color: #222;
+	transform: scale(1.1);
+}
+
+.newsletter-card-checkbox-container {
+	display: flex;
+	align-items: center;
+	gap: 10rem;
+}

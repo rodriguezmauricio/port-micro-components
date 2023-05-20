@@ -1,0 +1,22 @@
+.toast-notif-main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	position: relative;
+}
+
+.toast-notif-container {
+	display: flex;
+	flex-direction: column;
+	gap: 15rem;
+	background-color: #fff;
+	padding: 30rem;
+	border-radius: 5rem;
+}
+
+.toast-notif-message-div {
+	position: absolute;
+	top: 0;
+}
