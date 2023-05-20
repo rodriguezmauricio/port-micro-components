@@ -1,0 +1,11 @@
+.accordion-tab-header {
+	padding: 10rem;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.accordion-tab-content {
+	padding: 10rem;
+}

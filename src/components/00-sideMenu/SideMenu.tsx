@@ -20,6 +20,11 @@ const SideMenu = () => {
 			linkTo: "simpleForm",
 			text: "Simple Form Component",
 		},
+
+		{
+			linkTo: "accordion",
+			text: "Accordion Component",
+		},
 	];
 
 	const url = window.location.href;

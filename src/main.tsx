@@ -7,6 +7,7 @@ import StarRating from "./components/01-starRating/StarRating.tsx";
 import NewsletterCard from "./components/02-newsletterCard/NewsletterCard.tsx";
 import ToastNotification from "./components/03-toastNotification/ToastNotification.tsx";
 import SimpleForm from "./components/04-simpleForm/SimpleForm.tsx";
+import AccordionComponent from "./components/05-accordion/AccordionComponent.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
 			{
 				path: "simpleForm",
 				element: <SimpleForm />,
+			},
+			{
+				path: "accordion",
+				element: <AccordionComponent />,
 			},
 		],
 	},
