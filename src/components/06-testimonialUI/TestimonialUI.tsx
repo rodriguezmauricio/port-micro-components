@@ -112,7 +112,6 @@ const TestimonialUI = () => {
 									style={{ translateX: -sliderIndex * 350, transition: "0.5s" }}
 								>
 									<TestimonialIndividual
-										id={id}
 										rating={rating}
 										title={title}
 										description={description}

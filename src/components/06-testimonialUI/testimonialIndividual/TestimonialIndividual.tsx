@@ -2,7 +2,6 @@ import "./testimonialIndividual.css";
 import { FaStar } from "react-icons/fa";
 
 interface ITestimonialIndividualProps {
-	id: number;
 	rating: number;
 	title: string;
 	description: string;
@@ -13,7 +12,6 @@ interface ITestimonialIndividualProps {
 }
 
 const TestimonialIndividual = ({
-	id,
 	rating,
 	title,
 	description,
