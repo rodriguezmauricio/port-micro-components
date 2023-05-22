@@ -1,0 +1,56 @@
+.testimonialUI-main-container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.testimonialUI-container {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	gap: 30rem;
+}
+
+.testimonialUI-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.testimonialUI-arrows {
+	display: flex;
+	gap: 15rem;
+}
+
+.testimonialUI-arrow {
+	display: flex;
+	gap: 15rem;
+	border: 2px solid #fff;
+	padding: 15rem;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.testimonialUI-arrow:hover {
+	display: flex;
+	gap: 15rem;
+	border: 2px solid rgb(190, 233, 0);
+	color: #111;
+	background-color: rgb(190, 233, 0);
+	padding: 15rem;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.testimonialUI-slider {
+	display: flex;
+	gap: 50rem;
+	width: 1050px;
+	overflow-x: hidden;
+	padding-bottom: 10rem;
+}

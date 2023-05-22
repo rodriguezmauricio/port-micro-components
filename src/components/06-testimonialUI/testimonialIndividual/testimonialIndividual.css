@@ -1,0 +1,46 @@
+.test-indiv-container {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 15rem;
+	padding: 15rem;
+	border-radius: 10rem;
+}
+
+.test-indiv-rating {
+	display: flex;
+	gap: 5rem;
+}
+
+.test-indiv-rating-icon {
+	padding: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5rem;
+}
+
+.test-indiv-container h3 {
+	font-size: 24rem;
+}
+
+.test-indiv-user {
+	display: flex;
+	gap: 10rem;
+	align-items: center;
+}
+
+.test-indiv-user img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.test-indiv-user-name {
+	font-weight: bold;
+}
+
+.test-indiv-user-position {
+	font-size: 14rem;
+}

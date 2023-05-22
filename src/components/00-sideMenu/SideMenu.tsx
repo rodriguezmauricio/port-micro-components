@@ -6,24 +6,27 @@ const SideMenu = () => {
 	const sideMenuLinks = [
 		{
 			linkTo: "starRating",
-			text: "Star Rating Component",
+			text: "Star Rating",
 		},
 		{
 			linkTo: "newsletterCard",
-			text: "Newsletter Card Component",
+			text: "Newsletter Card",
 		},
 		{
 			linkTo: "toastNotification",
-			text: "Toast Notification Component",
+			text: "Toast Notification",
 		},
 		{
 			linkTo: "simpleForm",
-			text: "Simple Form Component",
+			text: "Simple Form",
 		},
-
 		{
 			linkTo: "accordion",
-			text: "Accordion Component",
+			text: "Accordion",
+		},
+		{
+			linkTo: "testimonialUI",
+			text: "Testimonial UI",
 		},
 	];
 
@@ -39,6 +42,12 @@ const SideMenu = () => {
 		return id === idAtivo;
 	};
 
+	const styleActive = {
+		color: "rgb(190, 233, 0)",
+		borderLeft: "3px solid rgb(190, 233, 0)",
+		paddingLeft: "10rem",
+	};
+
 	return (
 		<div className="side-menu-container">
 			<h2>Menu</h2>
@@ -50,7 +59,7 @@ const SideMenu = () => {
 								onClick={() => handleSelected(link.linkTo)}
 								style={
 									isSelected(link.linkTo, active) || url.includes(link.linkTo)
-										? { color: "rgb(190, 233, 0)" }
+										? { ...styleActive }
 										: { color: "white" }
 								}
 								to={link.linkTo}
