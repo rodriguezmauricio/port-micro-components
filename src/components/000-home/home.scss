@@ -1,0 +1,23 @@
+.home-main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+
+	.home-container {
+		display: flex;
+		flex-direction: column;
+		gap: 30rem;
+		margin: 20rem;
+
+		h1 {
+			font-size: 60rem;
+			color: #fff;
+		}
+		p {
+			font-size: 30rem;
+			color: rgb(145, 211, 38);
+		}
+	}
+}

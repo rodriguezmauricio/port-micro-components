@@ -13,12 +13,17 @@ import AdviceGenerator from "./components/07-adviceGenerator/AdviceGenerator.tsx
 import ResultsSumary from "./components/08-resultsSummary/ResultsSumary.tsx";
 import ComingSoon from "./components/10-comingSoonPage/ComingSoon.tsx";
 import InteractiveCard from "./components/11-interactiveCard/InteractiveCard.tsx";
+import Home from "./components/000-home/Home.tsx";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <App />,
 		children: [
+			{
+				path: "/",
+				element: <Home />,
+			},
 			{
 				path: "starRating",
 				element: <StarRating />,
