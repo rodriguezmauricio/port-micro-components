@@ -3,7 +3,7 @@ import "./sideMenu.css";
 import { Link } from "react-router-dom";
 
 const SideMenu = () => {
-	const sideMenuLinks = [
+	const sideMenuComponentLinks = [
 		{
 			linkTo: "starRating",
 			text: "Star Rating",
@@ -28,6 +28,25 @@ const SideMenu = () => {
 			linkTo: "testimonialUI",
 			text: "Testimonial UI",
 		},
+		{
+			linkTo: "resultsSummary",
+			text: "Results Summary",
+		},
+	];
+
+	const sideMenuProjectLinks = [
+		{
+			linkTo: "adviceGenerator",
+			text: "Advice Generator",
+		},
+		{
+			linkTo: "ComingSoon",
+			text: "Coming Soon Page",
+		},
+		{
+			linkTo: "interactiveCard",
+			text: "Interactive Card",
+		},
 	];
 
 	const url = window.location.href;
@@ -50,9 +69,30 @@ const SideMenu = () => {
 
 	return (
 		<div className="side-menu-container">
-			<h2>Menu</h2>
+			<h2>Components</h2>
 			<ul>
-				{sideMenuLinks.map((link) => {
+				{sideMenuComponentLinks.map((link) => {
+					return (
+						<li key={link.linkTo}>
+							<Link
+								onClick={() => handleSelected(link.linkTo)}
+								style={
+									isSelected(link.linkTo, active) || url.includes(link.linkTo)
+										? { ...styleActive }
+										: { color: "white" }
+								}
+								to={link.linkTo}
+							>
+								{link.text}
+							</Link>
+						</li>
+					);
+				})}
+			</ul>
+			<br />
+			<h2>Projects</h2>
+			<ul>
+				{sideMenuProjectLinks.map((link) => {
 					return (
 						<li key={link.linkTo}>
 							<Link

@@ -1,0 +1,63 @@
+.card-back {
+	height: 300px;
+	width: 550px;
+	border-radius: 15rem;
+	box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+	background-color: #ddd;
+	font-family: "JetBrains Mono", monospace;
+
+	position: relative;
+	top: 300px;
+	left: 50px;
+
+	.black-stripe {
+		background-color: #222;
+		height: 60px;
+		position: relative;
+		top: 30px;
+	}
+
+	.cvc-stripe {
+		background-color: #aaa;
+		border-radius: 5rem;
+		padding: 15rem;
+		width: 80%;
+		margin: 50px auto;
+		text-align: right;
+		font-size: 18rem;
+		color: #fff;
+	}
+}
+
+@media (max-width: 1600px) {
+	.card-back {
+		height: 200px;
+		width: 350px;
+		border-radius: 15rem;
+		box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+		background-color: #ddd;
+		font-family: "JetBrains Mono", monospace;
+
+		position: relative;
+		top: 100px;
+		left: 50px;
+
+		.black-stripe {
+			background-color: #222;
+			height: 60px;
+			position: relative;
+			top: 30px;
+		}
+
+		.cvc-stripe {
+			background-color: #aaa;
+			border-radius: 5rem;
+			padding: 15rem;
+			width: 80%;
+			margin: 50px auto;
+			text-align: right;
+			font-size: 18rem;
+			color: #fff;
+		}
+	}
+}

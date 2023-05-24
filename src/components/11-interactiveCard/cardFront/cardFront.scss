@@ -1,0 +1,75 @@
+.card-front {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: 300px;
+	width: 550px;
+	border-radius: 15rem;
+	box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+	background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-004.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=419940fc6baf1c6a20e20b10dbaf34f9");
+	font-family: "JetBrains Mono", monospace;
+
+	position: relative;
+	top: -320px;
+	left: 80px;
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		height: 50%;
+		padding: 30rem;
+		color: #dee9eb;
+
+		span {
+			text-align: center;
+			font-size: 40rem;
+		}
+
+		.name-date {
+			display: flex;
+			justify-content: space-between;
+			font-size: 20rem;
+		}
+	}
+}
+
+@media (max-width: 1600px) {
+	.card-front {
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+		height: 200px;
+		width: 350px;
+		border-radius: 15rem;
+		box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+		background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v904-nunny-004.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=419940fc6baf1c6a20e20b10dbaf34f9");
+		font-family: "JetBrains Mono", monospace;
+
+		position: relative;
+		top: 50px;
+		left: -50px;
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			height: 50%;
+			padding: 30rem;
+			color: #dee9eb;
+
+			span {
+				text-align: center;
+				font-size: 24rem;
+			}
+
+			.name-date {
+				display: flex;
+				justify-content: space-between;
+				font-size: 20rem;
+			}
+		}
+	}
+}

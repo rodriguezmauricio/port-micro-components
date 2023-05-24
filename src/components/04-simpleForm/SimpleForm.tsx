@@ -32,7 +32,6 @@ const SimpleForm = () => {
 			type: "text",
 			required: true,
 			errormessage: "That field is required",
-			pattern: "^[a-zA-Z]{3,}$",
 		},
 		{
 			id: 1,

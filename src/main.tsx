@@ -9,6 +9,10 @@ import ToastNotification from "./components/03-toastNotification/ToastNotificati
 import SimpleForm from "./components/04-simpleForm/SimpleForm.tsx";
 import AccordionComponent from "./components/05-accordion/AccordionComponent.tsx";
 import TestimonialUI from "./components/06-testimonialUI/TestimonialUI.tsx";
+import AdviceGenerator from "./components/07-adviceGenerator/AdviceGenerator.tsx";
+import ResultsSumary from "./components/08-resultsSummary/ResultsSumary.tsx";
+import ComingSoon from "./components/10-comingSoonPage/ComingSoon.tsx";
+import InteractiveCard from "./components/11-interactiveCard/InteractiveCard.tsx";
 
 const router = createBrowserRouter([
 	{
@@ -39,6 +43,22 @@ const router = createBrowserRouter([
 			{
 				path: "testimonialUI",
 				element: <TestimonialUI />,
+			},
+			{
+				path: "adviceGenerator",
+				element: <AdviceGenerator />,
+			},
+			{
+				path: "resultsSummary",
+				element: <ResultsSumary />,
+			},
+			{
+				path: "comingSoon",
+				element: <ComingSoon />,
+			},
+			{
+				path: "interactiveCard",
+				element: <InteractiveCard />,
 			},
 		],
 	},

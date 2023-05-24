@@ -1,0 +1,98 @@
+.results-sum-main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: hsl(221, 100%, 96%);
+
+	.results-sum-container {
+		display: flex;
+		max-width: 700px;
+		margin: auto;
+		border-radius: 30rem;
+		box-shadow: 20px 20px 50px hsl(241, 100%, 89%);
+		margin: 50rem;
+
+		.left {
+			display: flex;
+			flex-direction: column;
+			flex: 1;
+			gap: 30rem;
+			background-color: hsl(241, 81%, 54%);
+			padding: 40rem;
+			border-radius: 30rem;
+			text-align: center;
+			transform: scale(1.1);
+			color: hsl(241, 100%, 89%);
+
+			.header {
+				font-weight: bold;
+			}
+
+			.results-circle {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 180px;
+				width: 180px;
+				padding: 30rem;
+				background: linear-gradient(to top, transparent 0%, hsl(234, 85%, 45%) 100%);
+				border-radius: 50%;
+				margin: auto;
+
+				.result-number {
+					font-size: 56rem;
+					font-weight: bolder;
+					color: hsl(221, 100%, 96%);
+				}
+			}
+
+			.congrats {
+				font-size: 28rem;
+				font-weight: bold;
+				color: hsl(221, 100%, 96%);
+				margin-bottom: -20rem;
+			}
+		}
+
+		.right {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			flex: 1;
+			padding: 30rem 30rem 30rem 50rem;
+
+			h3 {
+				font-size: 22rem;
+			}
+
+			button {
+				background-color: hsl(224, 30%, 27%);
+				color: hsl(241, 100%, 89%);
+				outline: 0;
+				border: none;
+				font-size: 16rem;
+				font-weight: bold;
+				padding: 20rem;
+				width: 100%;
+				border-radius: 50rem;
+				cursor: pointer;
+			}
+		}
+	}
+
+	@media (max-width: 920px) {
+		.results-sum-container {
+			display: flex;
+			flex-direction: column;
+
+			.right {
+				display: flex;
+				flex-direction: column;
+				gap: 15rem;
+			}
+		}
+	}
+}
