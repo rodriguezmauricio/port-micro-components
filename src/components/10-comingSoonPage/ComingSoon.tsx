@@ -26,7 +26,10 @@ const ComingSoon = () => {
 							className="left-content"
 						>
 							<div className="logo">
-								<img src="https://buildwithtej.com.ng/wp-content/uploads/2021/06/logo-1024x214.jpg" />
+								<img
+									style={{ width: "200px" }}
+									src="https://buildwithtej.com.ng/wp-content/uploads/2021/06/logo-1024x214.jpg"
+								/>
 							</div>
 							<div className="img-mobile"></div>
 							<div className="content">
